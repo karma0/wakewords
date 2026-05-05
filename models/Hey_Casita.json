@@ -1,0 +1,10 @@
+{
+  "type": "micro",
+  "wake_word": Hey Casita,
+  "author": "Bobby Larson",
+  "website": "https://linkedin.com/in/bobbyl",
+  "model": "Hey_Casita.tflite",
+  "trained_languages": ["en","es"],
+  "version": 1
+}
+
