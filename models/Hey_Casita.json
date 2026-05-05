@@ -1,10 +1,17 @@
 {
   "type": "micro",
-  "wake_word": Hey Casita,
+  "wake_word": "Hey Casita",
   "author": "Bobby Larson",
   "website": "https://linkedin.com/in/bobbyl",
   "model": "Hey_Casita.tflite",
-  "trained_languages": ["en","es"],
-  "version": 1
+  "trained_languages": ["en"],
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.95,
+    "feature_step_size": 10,
+    "sliding_window_size": 5,
+    "tensor_arena_size": 30000,
+    "minimum_esphome_version": "2024.7.0"
+  }
 }
 
